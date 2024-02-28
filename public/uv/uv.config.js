@@ -115,7 +115,7 @@ self.__uv$config = {
    * The bare path.
    * @type {string}
    */
-  bare: "https://astroidv3-self.vercel.app/bare/",
+  bare: "/bare/",
 
   /**
    * Function to encode URLs using Ultraviolet's XOR codec.
