@@ -27,7 +27,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "https://ixl7thgrademath.vercel.app/bare/": {
+      "/bare/": {
         target: "http://localhost:3000",
         rewrite: (path) => path.replace(/^\/bare/, ''),
         ws: true
