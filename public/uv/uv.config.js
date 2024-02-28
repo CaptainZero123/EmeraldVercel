@@ -115,7 +115,7 @@ self.__uv$config = {
    * The bare path.
    * @type {string}
    */
-  bare: "/bare/",
+  bare: "https://ixl7thgrademath.vercel.app/bare/",
 
   /**
    * Function to encode URLs using Ultraviolet's XOR codec.
