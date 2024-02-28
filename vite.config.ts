@@ -29,7 +29,7 @@ export default defineConfig({
     proxy: {
       "/bare/": {
         target: "http://localhost:3000",
-        rewrite: (path) => path.replace(/^\/https://ixl7thgrademath.vercel.app/bare/, ''),
+        rewrite: (path) => path.replace(/^\/bare/, ''),
         ws: true
       },
     }
